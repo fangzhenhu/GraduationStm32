@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{1d585147-6da5-4a67-b2cc-65983bbc6d4d}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{aec60446-9397-412b-949a-839df83ed037}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="项目说明">
+      <UniqueIdentifier>{06e60626-c841-4af4-97af-521880209d1b}</UniqueIdentifier>
+      <Extensions>txt</Extensions>
+    </Filter>
+    <Filter Include="源文件\RVMDK">
+      <UniqueIdentifier>{f79d48c6-7de0-4c68-b6c4-a20899ff3076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StdPeriphDeriver">
+      <UniqueIdentifier>{3093d997-051c-4a2c-a1f6-35ced68b4df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\User">
+      <UniqueIdentifier>{f27e61bb-fc66-42a8-b0e6-1ab1ce429ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\CMSIS">
+      <UniqueIdentifier>{af0a9f3f-7ecb-4b45-bfab-f0323547a570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Doc">
+      <UniqueIdentifier>{fd2b4936-9711-4b19-94bf-5521d454beaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Stm32lib\src\stm32f10x_flash.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src\stm32f10x_gpio.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src\stm32f10x_rcc.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src\RCC_Configuration.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\user\src\led.c">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\user\src\main.c">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\user\src\stm32f10x_it.c">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src_base\delay.c">
+      <Filter>源文件\User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src\core_cm3.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src\nvic_misc.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src_base\COM_USART1.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src\stm32f10x_adc.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src\stm32f10x_exti.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src\stm32f10x_usart.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src_base\usart.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Stm32lib\src_base\ADC_init.c">
+      <Filter>源文件\StdPeriphDeriver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Keil_MDK\startup_stm32f10x_hd.s">
+      <Filter>源文件\RVMDK</Filter>
+    </None>
+    <None Include="Readme.txt">
+      <Filter>项目说明</Filter>
+    </None>
+  </ItemGroup>
+</Project>
